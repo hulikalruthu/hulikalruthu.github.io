@@ -24,8 +24,6 @@ cd website && python3 -m http.server 8000   # then open http://localhost:8000
 
 ## TODO before publishing
 
-- [ ] Add `assets/img/profile.jpg`, then in `index.html` delete the
-      `.profile-photo-placeholder` div and uncomment the `<img class="profile-photo">` line right below it.
 - [ ] Add paper thumbnails to `assets/img/` (e.g. `hiervision.png`) and replace each
       `.pub-thumb-placeholder` div with `<img src="assets/img/hiervision.png" alt="" class="pub-thumb">`.
 - [ ] Fill in the real GitHub URL in `index.html` (marked `<!-- TODO -->`). LinkedIn is set.
